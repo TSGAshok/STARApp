@@ -142,8 +142,8 @@ class NextViewController: UIViewController {
                 //creating NSMutableURLRequest
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-        let username = "bitnami"
-        let password = "pBNF4lqg6NzK"
+        let username = "Username"
+        let password = "password
         let loginString = String(format: "%@:%@", username, password)
         let loginData = loginString.data(using: String.Encoding.utf8)!
         let base64LoginString = loginData.base64EncodedString()
